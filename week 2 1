@@ -1,0 +1,131 @@
+package abstraction;
+
+interface M
+
+int x= 10; void fun();
+
+}
+
+interface N
+
+int x = 20; void fun();
+
+}
+
+public class MultipleInheritanceStudy {
+
+I
+
+interface 0 extends M,N //Multiple inheritance through Interfaces
+
+{
+
+void fun();
+
+}
+
+public static void main(String[] args) { Cc new C();
+
+c.fun();
+
+}
+
+
+
+
+package abstraction;
+
+LoopStudy.java
+
+AbstractStud...
+
+Interfac
+
+interface M
+
+int x= 10;
+
+void fun();
+
+}
+
+interface N{
+
+int x = 20;
+
+void fun();
+
+}
+
+class C implements M,N //Multiple inheritance in Java
+
+{
+
+public void fun() {
+
+System.out.println("Hello, I'm function in C"); System.out.println();
+
+}
+
+}
+
+interface 0 extends M,N //Multiple inheritance through Interfaces
+
+{
+
+void fun();
+
+}
+
+class D implements O
+
+{
+
+public void fun() {
+
+System.out.println("Hello, I'm function in D");
+
+}
+
+
+package abstraction;
+
+interface M
+
+int x = 10;
+
+void fun();
+
+interface N
+
+int x = 20;
+
+void fun();
+
+)
+
+class C implements M,N //Multiple inheritance in Java
+
+public void fun() {
+
+System.out.println("Hello, I'm function in C");
+
+System.out.println(M.x); //Ambiguity resolved using Fully Qualified Name
+
+System.out.println(N.x); //Ambiguity resolved using Fully Qualified Name System.out.println(M.super.hashCode());
+
+System.out.println(N.super.hashCode());
+
+}
+
+}
+
+interface 0 extends M,N //Multiple inheritance through Interfaces
+
+{
+
+}
+
+void fun();
+
+class D implements O
